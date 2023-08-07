@@ -11,6 +11,7 @@ app.use("/api/v1/students",studentRouter);
 app.use("/api/v1/students/1",studentRouter);
 app.use("/api/v1/students/update/1",studentRouter);
 app.use("/api/v1/students/delete/1",studentRouter);
+app.use("/api/v1/students/add",studentRouter);
 
 app.listen(port, ()=> {
     console.log(`listning port ${port}`);
